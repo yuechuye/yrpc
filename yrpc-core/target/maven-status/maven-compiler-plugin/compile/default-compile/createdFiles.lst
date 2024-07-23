@@ -1,0 +1,10 @@
+com\yy\discover\AbstractRegistry.class
+com\yy\transport\MrpcResponse.class
+com\yy\ServiceConfig.class
+com\yy\discover\impl\ZookeeperRegistry.class
+com\yy\watcher\UpAndDownWatcher.class
+com\yy\discover\RegistryConfig.class
+com\yy\discover\Registry.class
+com\yy\Configuration.class
+com\yy\App.class
+com\yy\transport\MrpcResponse$MrpcResponseBuilder.class
