@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8105a4ea-bb25-4168-aa1a-021579af3f07" name="Changes" comment="ZookeeperUtils工具类">
+    <list default="true" id="8105a4ea-bb25-4168-aa1a-021579af3f07" name="Changes" comment="服务注册发现">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/utils/ZookeeperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/utils/ZookeeperUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/RpcBootStrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/RpcBootStrap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +186,7 @@
       <workItem from="1721699553723" duration="97000" />
       <workItem from="1721715922285" duration="3246000" />
       <workItem from="1721719262472" duration="3311000" />
+      <workItem from="1721722587696" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <option name="closed" value="true" />
@@ -210,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721720111643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="服务注册发现">
+      <option name="closed" value="true" />
+      <created>1721722830287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721722830287</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +230,8 @@
     <MESSAGE value="初步服务注册发现，但是不太行，写了个垃圾的demo" />
     <MESSAGE value="项目重构" />
     <MESSAGE value="ZookeeperUtils工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="ZookeeperUtils工具类" />
+    <MESSAGE value="服务注册发现" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务注册发现" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

@@ -3,5 +3,8 @@
     <option name="myName" value="Project Default" />
     <inspection_tool class="AlibabaAvoidApacheBeanUtilsCopy" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AlibabaUseRightCaseForDateFormat" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ADDITIONAL_TAGS" value="@Data,AllArgsConstructor,NoArgsConstructor,Builder,Serializable" />
+    </inspection_tool>
   </profile>
 </component>
