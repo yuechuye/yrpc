@@ -7,70 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8105a4ea-bb25-4168-aa1a-021579af3f07" name="Changes" comment="初步服务注册发现，但是不太行，写了个垃圾的demo">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/DateUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/IdGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/annotation/MrpcApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/exception/DiscoveryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/exception/NetException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/exception/RegistryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/exception/ZookeeperException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/utils/NetUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/utils/zookeeper/ZookeeperNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/java/com/yy/utils/zookeeper/ZookeeperUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/IdGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/annotation/MrpcApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/exception/DiscoveryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/exception/NetException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/exception/RegistryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/exception/ZookeeperException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/utils/NetUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/utils/zookeeper/ZookeeperNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/com/yy/utils/zookeeper/ZookeeperUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-common/target/classes/log4j.properties" beforeDir="false" />
+    <list default="true" id="8105a4ea-bb25-4168-aa1a-021579af3f07" name="Changes" comment="项目重构">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yrpc-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yrpc-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/MrpcBootStrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/NettyScope.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/ServiceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/channelHandler/ConsumerChannelInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/channelHandler/handler/ConsumerChannelInboundHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/channelHandler/handler/MrpcRequestEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/channelHandler/handler/MrpcResponseDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/discover/AbstractRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/discover/Registry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/discover/RegistryConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/discover/impl/ZookeeperRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/transport/MrpcResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/watcher/UpAndDownWatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/impl/ZookeeperRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/impl/ZookeeperRegistry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-api/src/main/java/com/yy/HelloMrpcService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-api/target/classes/com/yy/HelloMrpcService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-provider/src/main/java/com/yy/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-provider/src/main/java/com/yy/HelloMrpcServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-provider/target/classes/com/yy/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-test/yrpc-provider/target/classes/com/yy/HelloMrpcServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/AbstractRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/Registry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/RegistryConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/impl/ZookeeperRegistry.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +105,7 @@
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yy.App" />
+      <module name="yrpc-core" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yy.*" />
@@ -200,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.NetUtils" />
       </list>
     </recent_temporary>
@@ -243,7 +187,17 @@
       <workItem from="1721652751468" duration="4164000" />
       <workItem from="1721699553723" duration="97000" />
       <workItem from="1721715922285" duration="3246000" />
+      <workItem from="1721719262472" duration="689000" />
     </task>
+    <task id="LOCAL-00001" summary="项目重构">
+      <option name="closed" value="true" />
+      <created>1721719308810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721719308810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初步服务注册发现，但是不太行，写了个垃圾的demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步服务注册发现，但是不太行，写了个垃圾的demo" />
+    <MESSAGE value="项目重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目重构" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
