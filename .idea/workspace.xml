@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8105a4ea-bb25-4168-aa1a-021579af3f07" name="Changes" comment="项目重构">
+    <list default="true" id="8105a4ea-bb25-4168-aa1a-021579af3f07" name="Changes" comment="ZookeeperUtils工具类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yrpc-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/AbstractRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/Registry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/RegistryConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yrpc-core/target/classes/com/yy/discover/impl/ZookeeperRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/utils/ZookeeperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/yrpc-core/src/main/java/com/yy/utils/ZookeeperUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,7 @@
     &quot;Application.App (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetUtils.executor&quot;: &quot;Run&quot;,
     &quot;Maven.yrpc [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.yrpc [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -131,7 +128,7 @@
     </configuration>
     <configuration name="NetUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yy.utils.NetUtils" />
-      <module name="yrpc-common" />
+      <module name="yrpc-core" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yy.utils.*" />
@@ -145,9 +142,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.NetUtils" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NetUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +184,7 @@
       <workItem from="1721652751468" duration="4164000" />
       <workItem from="1721699553723" duration="97000" />
       <workItem from="1721715922285" duration="3246000" />
-      <workItem from="1721719262472" duration="689000" />
+      <workItem from="1721719262472" duration="3311000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <option name="closed" value="true" />
@@ -197,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721719308810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ZookeeperUtils工具类">
+      <option name="closed" value="true" />
+      <created>1721720100676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721720100676</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ZookeeperUtils工具类">
+      <option name="closed" value="true" />
+      <created>1721720111643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721720111643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初步服务注册发现，但是不太行，写了个垃圾的demo" />
     <MESSAGE value="项目重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目重构" />
+    <MESSAGE value="ZookeeperUtils工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="ZookeeperUtils工具类" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
