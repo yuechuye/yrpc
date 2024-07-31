@@ -9,7 +9,12 @@ public class Constant {
      * 默认的ZooKeeper连接地址，用于RPC服务的注册与发现。
      */
     //默认zk连接ip和端口
-    public static final String DEFAULT_ZK_CONNECT = "43.139.111.22:2181";
+    public static final String DEFAULT_ZK_CONNECT = "127.0.0.1:2181";
+
+    /**
+     * 服务的默认端口
+     */
+    public static final int DEFAULT_SERVICE_PORT = 8094;
 
     /**
      * 默认的ZooKeeper会话超时时间，单位为毫秒。

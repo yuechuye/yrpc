@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="yrpc-core" />
+        <module name="yrpc-provider" />
+        <module name="yrpc-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="yrpc-api" target="1.8" />
       <module name="yrpc-common" target="1.8" />
-      <module name="yrpc-consumer" target="1.8" />
-      <module name="yrpc-provider" target="1.8" />
       <module name="yrpc-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -9,6 +9,8 @@
   <modules>
 
     <module>yrpc-core</module>
+      <module>yrpc-provider</module>
+    <module>yrpc-consumer</module>
 
   </modules>
 

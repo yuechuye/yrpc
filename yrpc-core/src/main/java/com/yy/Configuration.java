@@ -13,6 +13,9 @@ import java.net.SocketAddress;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+import static com.yy.common.Constant.DEFAULT_SERVICE_PORT;
+import static com.yy.common.Constant.DEFAULT_ZK_CONNECT;
+
 /**
  * 全局配置类
  */
@@ -24,7 +27,7 @@ public class Configuration {
     /**
      * 服务监听的端口号，默认为8094。
      */
-    private int port = 8094;
+    private int port = DEFAULT_SERVICE_PORT;
 
     /**
      * 应用程序的名称，默认为"default"。
@@ -42,7 +45,7 @@ public class Configuration {
      * 注册中心的配置，默认使用ZooKeeper作为注册中心，地址为127.0.0.1:2181。
      */
     // 配置信息-->注册中心
-    private RegistryConfig registryConfig = new RegistryConfig("zookeeper://127.0.0.1:2181");
+    private RegistryConfig registryConfig = new RegistryConfig("zookeeper://" + DEFAULT_ZK_CONNECT);
 
     /**
      * 序列化协议的类型，默认使用jdk序列化。
