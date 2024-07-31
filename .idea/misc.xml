@@ -5,11 +5,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/yrpc-common/pom.xml" />
+        <option value="$PROJECT_DIR$/yrpc-core/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/yrpc-common/pom.xml" />
+        <option value="$PROJECT_DIR$/yrpc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/yrpc-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/yrpc-manager/pom.xml" />
         <option value="$PROJECT_DIR$/yrpc-test/pom.xml" />
       </set>
     </option>
